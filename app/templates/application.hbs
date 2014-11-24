@@ -1,10 +1,58 @@
-<h2>PPNW</h2>
-
-<ul>
-  <li>{{link-to 'Home' 'index'}}</li>
-  <li>{{link-to 'Characters' 'characters'}}</li>
-</ul>
-
-<hr>
-
+<div class='container'>
+  <div class='header'>
+    <div class="row">
+      <div class='header-icons'>
+        <ul class='header-icons-list'>
+          <li class='icon'><a href='https://twitter.com/PrincessPartyNW'><img src='assets/twitter_24.png'></a></li>
+          <li class='icon'><a href='https://www.facebook.com/princesspartiesnw'><img src='assets/facebook_24.png'></a></li>
+          <li class='icon'><a href='http://www.pinterest.com/nwprincesses/'><img src='assets/pintrest_24.png'></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <header class='banner' role='banner'>
+    {{#link-to 'home'}}<img src='assets/ppnw-header.jpg'>{{/link-to}}
+  </header>
+  <div class='row'>
+    <div class='text-center'>
+      {{#link-to 'home'}}<button class='large'>home</button>{{/link-to}}
+      {{#link-to 'party-packages'}}<button class='large'>party-packages</button>{{/link-to}}
+      {{#link-to 'characters'}}<button class='large'>characters</button>{{/link-to}}
+      {{#link-to 'pictures'}}<button class='large'>pictures</button>{{/link-to}}
+      {{#link-to 'posts'}}<button class='large'>blog</button>{{/link-to}}
+    </div>
+  </div>
+</div>
 {{outlet}}
+<div class='footer'>
+  <div class='footer-text'>
+    <div class='row'>
+      <div class="small-6 medium-6 large-6 columns">
+        <h1>Email Signup</h1>
+        <div id="mc_embed_signup">
+          <form action="http://princesspartiesnw.us2.list-manage1.com/subscribe?u=6eba075198cd7588eed14dbc8&amp;id=65327ceb62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <label for="mce-EMAIL">Get deals, event information, and more</label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_6eba075198cd7588eed14dbc8_65327ceb62" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </form>
+        </div>
+      </div>
+      <div class="small-4 medium-3 large-6 columns">
+        <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-3">
+          <h1>Princess Parties NW</h1>
+            <li>{{#link-to 'home'}}home</button>{{/link-to}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='c-footer'>
+  <div class='footer-text'>
+  <div class='row'>
+      <p>© Copyright Princess Parties NW 2014. Powered by <a class='label' href='http://www.twitter.com/andrewrdakers'>Andrew Akers</a> and <a class='label' href='http://www.emberjs.com'>Ember</a>.</p>
+    </div>
+  </div>
+</div>

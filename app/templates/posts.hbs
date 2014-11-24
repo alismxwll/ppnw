@@ -1,0 +1,12 @@
+<ul>
+  {{#each}}
+  <li>
+    {{#link-to 'posts'}}
+    {{title}},
+    {{content}},
+    {{/link-to}}
+  </li>
+  {{else}}
+  <li>No posts found.</li>
+  {{/each}}
+</ul>

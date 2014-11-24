@@ -1,0 +1,118 @@
+@import 'bower_components/foundation/css/foundation.css';
+@import 'bower_components/foundation/css/normalize.css';
+
+.header {
+  border-top: 5px solid #ff7a7f;
+  border-bottom: 1px solid #ff7a7f;
+  width: 100%;
+}
+
+.header-icons {
+  background: #fff;
+  clear: both;
+  overflow: hidden;
+  padding: 5px 0;
+  text-align: center;
+  display: inline;
+}
+
+.radius-20 {
+  border-radius: 20px;
+  background-color: #ff7a7f;
+}
+
+li.icon {
+  display: inline;
+}
+
+.header-icons-list {
+  list-style: none;
+  margin: 0 auto;
+  float: right;
+}
+
+.nav {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9em;
+  clear: both;
+  border: 1px solid #ff7a7f;
+}
+
+.menu {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.nav li {
+  position: relative;
+  display: inline;
+  z-index: 100;
+}
+
+.nav a {
+  padding: 20px 15px;
+  color: #ff7a7f;
+}
+
+a {
+  text-align: left;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.line {
+  display: inline-block;
+  border-bottom: 1px;
+  width: 100%;
+}
+
+.footer {
+  margin-top: 60px;
+  border-top: 1px solid #ff7a7f;
+  border-bottom: 2px solid #ff7a7f;
+  width: 100%;
+}
+
+.c-footer {
+  border-top: 1px solid #ff7a7f;
+  border-bottom: 2px solid #ff7a7f;
+  width: 100%;
+}
+
+.footer-text {
+  /*width: 960px;*/
+  /*clear: both;*/
+  font-size: .9em;
+  overflow: hidden;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.br {
+  margin-bottom: 60px;
+}

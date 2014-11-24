@@ -1,0 +1,13 @@
+<ul>
+  {{#each}}
+  <li>
+    {{#link-to 'characters'}}
+    {{name}},
+    {{description}},
+    {{file}}
+    {{/link-to}}
+  </li>
+  {{else}}
+  <li>No characters found.</li>
+  {{/each}}
+</ul>
